@@ -5,7 +5,7 @@ def send_email(user,subject,body):
         email = EmailMultiAlternatives(
             subject=subject,
             body='',
-            from_email= 'LibZone -anmamun0 | <noreply@example.com>',
+            from_email= 'Rabiul hosen',
             to=[user.email],
         )
         email.attach_alternative(body, "text/html")

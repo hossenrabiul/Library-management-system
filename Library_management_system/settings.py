@@ -32,7 +32,7 @@ SECRET_KEY = env("SECRET_KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-# CSRF_TRUSTED_ORIGINS = ['https://mamar-bank-qwx6.onrender.com'
+CSRF_TRUSTED_ORIGINS = ['https://library-management-system-mtbh.onrender.com','https://*.127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
